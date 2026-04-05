@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>CENTER FOR LANGUAGE AND ISLAMIC STUDIES</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <img="logo.png" class="logo">
+            <h1>CENTER FOR LANGUAGE AND ISLAMIC STUDIES</h1>
+        </header>
+    <nav>
+<a href="index.html">HOME</a>
+<a href="nursery.html">nursery</a>
+<a href="primary.html">primary</a>
+<a href="secondry.html">secondry</a>
+<a href="register.html">register</a>
+    </nav>
+
+    <section>
+         <h2>STUDENT REGISTRATION </h2>
+         <form action="submit_registration.php"
+         method="post">
+        <label for="student_name">full Name:</label>
+    <input type="text" id="student_name"
+name="student_name" required<br>
+
+<label for ="dob">Date of birth:</label>
+<input type="date" id="dob name="dob"
+required><br>
+
+<label for="nationality">Nationality:</label>
+<input type="text" id="nationality"
+name="nationality"<br>
+
+<label for="class_applying">class Applying For:</label>
+<select id="class_applying">name="class_applying">
+    <option value="PG">playgroup</option>
+    <option value="N1">Nursery 1</option>
+    <option value="N2">Nursery 2</option>
+    <option value="N3">Nursery 3</option>
+    <option value="PRY1">Primar 1</option>
+    <option value="PRY2">Primar 2</option>
+    <option value="PRY3">Primar 3</option>
+    <option value="PRY4">Primar 4</option>
+    <option value="PRY5">Primar 5</option>
+    <option value="Jss1">Junior Secondry 1</option>
+    <option value="Jss2">Junior Secondry 2</option>
+     <option value="Jss3">Junior Secondry 3</option>
+      <option value="sss1">Senior Secondry 1</option>
+      <option value="sss2">Senior Secondry 2</option>
+      <option value="sss3">Senior Secondry 3</option>
+    <!--add more option for other classes-->
+</select><br>
+
+<label for="parent_name">Parent/Guardian Name:</label>
+<input type="text" id="parent_name"
+name="parent_name"><br>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone"
+required><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email"
+name="email"><br>
+<label for="address">Address:</label>
+<textarea id="address" name="address"
+required></textarea><br>
+
+<input type="submit" value="submit">
+</form>
+
+        
+            
+         
+             <img src="school.jpg" class="gallery">
+             <video controls class="video">
+                 <source src="school.mp4">
+             </video>
+    </section>
+
+    </body>
+    
+</html>
